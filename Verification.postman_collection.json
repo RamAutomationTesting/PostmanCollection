@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "54fb5736-c0f4-4fb1-be23-d5de5b9ed51d",
+		"name": "Verification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30047617"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Test1\",\r\n  \"photoUrls\": [\r\n    \"<string>\",\r\n    \"<string>\"\r\n  ],\r\n  \"id\": \"124\",\r\n  \"category\": {\r\n    \"id\": \"124\",\r\n    \"name\": \"Test\"\r\n  },\r\n  \"tags\": [\r\n    {\r\n      \"id\": \"124\",\r\n      \"name\": \"234\"\r\n    },\r\n    {\r\n      \"id\": \"234\",\r\n      \"name\": \"test\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
